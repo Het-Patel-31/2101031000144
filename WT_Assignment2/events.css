@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #f4a261;
+}
+
+.events-section {
+    text-align: center;
+    padding: 50px;
+    background: #fff;
+}
+
+.events-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 1px solid #000;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.event img {
+    max-width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.event img:hover {
+    transform: scale(1.05);
+}
+
+.event-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+    transition: background 0.3s ease-in-out;
+}
+
+.event-button:hover {
+    background: #000;
+    color: #fff;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.links, .legal, .socials {
+    margin: 10px 20px;
+}
+
+.links a, .legal a, .socials a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 8px 0;
+    transition: color 0.3s ease-in-out;
+}
+
+.links a:hover, .legal a:hover, .socials a:hover {
+    color: #f4a261;
+}
